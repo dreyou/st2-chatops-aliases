@@ -1,8 +1,8 @@
 [![StackStorm](https://github.com/stackstorm/st2/raw/master/stackstorm_logo.png)](http://www.stackstorm.com)
-# ChatOps & Ansible st2 pack
+# ChatOps & Ansible st2 pack (Dreyou Fork)
 This is unofficial [StackStorm](http://stackstorm.com/) pack with some simple but useful real world examples crafted in [`Actions`](actions/) and [`Action Aliases`](aliases/) allowing you to run [Ansible ad-hoc commands](http://docs.ansible.com/intro_adhoc.html) and [Ansible Playbooks](http://docs.ansible.com/playbooks.html) as ChatOps commands.
 
-For complete Vagrant demo, see [showcase-ansible-chatops](https://github.com/armab/showcase-ansible-chatops) repo.
+Original pack and complete Vagrant demo, see [showcase-ansible-chatops](https://github.com/armab/showcase-ansible-chatops) repo.
 
 ## Installation
 Install st2 ansible integration pack (dependency): 
@@ -12,7 +12,7 @@ st2 run packs.install packs=ansible
 
 Install this custom pack:
 ```sh
-st2 run packs.install packs=st2-chatops-aliases repo_url=armab/st2-chatops-aliases
+st2 run packs.install packs=st2-chatops-aliases repo_url=dreyou/st2-chatops-aliases
 ```
 
 ## Available ChatOps commands
