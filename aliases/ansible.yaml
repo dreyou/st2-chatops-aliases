@@ -3,6 +3,6 @@
 ---
 name: "chatops.ansible"
 action_ref: "ansible.command"
-description: "Run ansible command"
+description: "Run ansible command, ex: !ansible hosts=hostname module-name=ping args=''"
 formats:
   - "ansible {{args}}"
