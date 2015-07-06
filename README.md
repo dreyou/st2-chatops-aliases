@@ -14,6 +14,10 @@ Install this custom pack:
 ```sh
 st2 run packs.install packs=st2-chatops-aliases repo_url=dreyou/st2-chatops-aliases
 ```
+Install this custom pack from hubot console:
+```sh
+!pack deploy st2-chatops-aliases repo_url=dreyou/st2-chatops-aliases
+```
 
 ## Available ChatOps commands
 Full list of available commands (with real use case Slack screenshots):
